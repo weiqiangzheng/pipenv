@@ -1728,7 +1728,7 @@ def do_outdated(pypi_mirror=None):
                 )
     for package, new_version, old_version in outdated:
         click.echo(
-            'Package {0!r} out–of–date: {1!r} installed, {2!r} available.'.format(
+            'Package {0!r} out-of-date: {1!r} installed, {2!r} available.'.format(
                 package, old_version, new_version
             )
         )

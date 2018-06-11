@@ -356,7 +356,7 @@ def cli(
     '--deploy',
     is_flag=True,
     default=False,
-    help=u"Abort if the Pipfile.lock is out–of–date, or Python version is wrong.",
+    help=u"Abort if the Pipfile.lock is out-of-date, or Python version is wrong.",
 )
 @option(
     '--pre', is_flag=True, default=False, help=u"Allow pre–releases."
@@ -770,13 +770,13 @@ def check(
     '--outdated',
     is_flag=True,
     default=False,
-    help=u"List out–of–date dependencies.",
+    help=u"List out-of-date dependencies.",
 )
 @option(
     '--dry-run',
     is_flag=True,
     default=None,
-    help=u"List out–of–date dependencies.",
+    help=u"List out-of-date dependencies.",
 )
 @argument('package', default=False)
 @pass_context
